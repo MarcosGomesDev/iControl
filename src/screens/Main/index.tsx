@@ -1,11 +1,20 @@
-import { Container } from '@src/components';
+import {
+  BalancePanel,
+  Container,
+  EntryList,
+  EntrySummary,
+} from '@src/components';
 import React from 'react';
-import { Text } from 'react-native';
+import { MainContent } from './styles';
 
 export function Main() {
   return (
     <Container>
-      <Text>Hello World</Text>
+      <MainContent>
+        <BalancePanel />
+        <EntrySummary />
+        <EntryList />
+      </MainContent>
     </Container>
   );
 }
