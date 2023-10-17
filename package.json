@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
+    "android": "react-native run-android --deviceId=RQCT600A3PH",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.72.4",
-    "styled-components": "^6.0.7"
+    "styled-components": "^6.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -30,6 +30,7 @@
     "metro-react-native-babel-preset": "0.76.8",
     "prettier": "^2.4.1",
     "react-test-renderer": "18.2.0",
+    "reactotron-react-native": "^5.0.3",
     "typescript": "4.8.4"
   },
   "engines": {
